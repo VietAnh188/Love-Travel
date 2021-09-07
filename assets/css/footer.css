@@ -1,0 +1,104 @@
+#footer {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../img/parallax-7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.footer-heading-left {
+    margin-right: 140px;
+}
+.footer-name {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--nav-item);
+    margin-bottom: 25px;
+}
+.footer-subname {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--black);
+}
+.footer-search {
+    height: 30px;
+    min-width: 100px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    border: none;
+}
+.footer-btn {
+    font-size: 15px;
+    height: 20px; 
+    padding: 20px 20px;
+    line-height: 1px;
+    background-color: var(--btn-blue);
+}
+.footer-btn a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.footer-item {
+    padding: 40px;
+    background-color: var(--white);
+}
+.footer-logo {
+    width: 150px;
+    margin-top: 25px;
+}
+.footer-desc {
+    font-size: 14px;
+    color: var(--nav-item);
+    line-height: 2;
+    margin: 40px 0 30px;
+}
+.footer-social {
+    font-size: 22px;
+}
+.footer-icon {
+    margin-right: 10px;
+}
+.footer__flex {
+    display: flex;
+}
+.footer-item-info {
+    margin-top: 30px;
+}
+.footer-info-heading {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 35px;
+}
+.list {
+    line-height: 1.8;
+}
+.list-item {
+    font-size: 14px;
+    color: var(--nav-item);
+}
+.endpage {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--btn-blue);
+    padding: 20px;
+    color: var(--white);
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: relative;
+    left: -12px;
+    width: 1254px;
+}
+.endpage-title {
+    
+}
+.endpage-copyright {
+
+}
