@@ -1,0 +1,96 @@
+#header {
+    position: relative;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+.header__item {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.logo {
+    padding-right: 45px;
+    line-height: 27px;
+}
+.logo-img {
+    width: 160px;
+}
+.navbar {
+    display: flex;
+    text-transform: uppercase;
+}
+.navbar__item {
+    position: relative;
+    padding: 25px 15px;
+    letter-spacing: 2px;
+}
+.navbar__item-link {
+    text-decoration: none;
+    color: var(--white);
+}
+.navbar__item:nth-child(7):hover .navbar__item-list--1st,
+.navbar__item:nth-child(6):hover .navbar__item-list--1st,
+.navbar__item:nth-child(5):hover .navbar__item-list--1st,
+.navbar__item:nth-child(5) .navbar__item-list__item:nth-child(8):hover .navbar__item-list--2nd,
+.navbar__item:nth-child(5) .navbar__item-list__item:nth-child(9):hover .navbar__item-list--2nd,
+.navbar__item:nth-child(4):hover .navbar__item-list--1st,
+.navbar__item:nth-child(3):hover .navbar__item-list--1st,
+.navbar__item:nth-child(2):hover .navbar__item-list--1st,
+.navbar__item:nth-child(2) .navbar__item-list__item:nth-child(3):hover .navbar__item-list--2nd {
+    display: block;
+}
+.navbar__item:nth-child(2) .navbar__item-list__item:first-child::after {
+    content: "HOT";
+    color: var(--white);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 10px;
+    background-color: var(--btn-pink);
+}
+.navbar__item:nth-child(4) .navbar__item-list__item:first-child::after {
+    content: "NEW";
+    color: var(--white);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 10px;
+    background-color: #1BBC9B;
+}
+.navbar__item-list__item-link {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: var(--nav-item);
+}
+.item__arrow {
+    margin-left: 15px;
+    font-size: 10px;
+    cursor: pointer;
+}
+.btn__header {
+    margin-left: 25px;
+    margin-right: 145px;
+}
+.btn__header-link {
+    text-decoration: none;
+    color: var(--white);
+}
+.menu {
+    margin: 3px 0 0 10px;
+}   
+.menu__box {
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.menu-icon {
+    color: #a3a3a3;
+}
